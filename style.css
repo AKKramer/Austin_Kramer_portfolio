@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainText{
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+
+}
+
+#introText{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+#name{
+  color: #e31B6D;
+
+}
+
+#learnMoreBtn{
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  margin-top: 1%;
+  transition: 0.3s;
+}
+
+#learnMoreBtn:hover{
+  background-color: teal;
+  border: 1px solid teal;
+  transition: 0.3s;
+  ;
+}
+#learnMoreBtn:hover .fa-arrow-right{
+  transition: 0.3s;
+  transform: rotate(90deg);
+}
+
+#learnMoreBtn .fa-arrow-right{
+  transition: 0.3s;
+}
+
+.imagebox{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    width: 100%
+}
+
+/* Navbar */
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Navbar */
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky; 
+    top: 0;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* End of navbar */
+
+  /* About */
+
+  #about{
+      text-align: center;
+      margin-top: 1%;
+  }
